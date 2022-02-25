@@ -1,0 +1,80 @@
+.heading1
+{
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+#prog-skill
+{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+}
+#prog-skill .prog
+{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 60%;
+}
+.prog .container
+{
+    width: 100%;
+    height: 26px;
+    margin: -0.3rem;
+}
+
+.skills 
+{
+    text-align: right; 
+    padding-top: 4px; 
+    padding-bottom: 15px; 
+    color: black; 
+    border-radius: 25px;
+}
+
+.html {width: 90%;height: 26px; background-color: rgb(51, 122, 204);}
+.css {width: 75%;height: 26px; background-color: rgb(51, 122, 204);} 
+.js {width: 35%;height: 26px; background-color: rgb(51, 122, 204);} 
+.C {width: 80%;height: 26px; background-color: rgb(51, 122, 204);} 
+.Cpp{width: 76%;height: 26px; background-color: rgb(51, 122, 204);}
+.Java{width: 82%;height: 26px; background-color: rgb(51, 122, 204);}
+.Python{width: 60%;height: 26px; background-color: rgb(51, 122, 204);}
+
+#prog-img
+{
+    height: 250px;
+    width: 350px;
+    background-color: #ddd;
+    border-radius: 220px;
+}
+
+#skill-heading 
+{
+    font-size: 3.2rem;
+    color: #ddd;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding-top: 90px;
+}
+
+/* graphic section */
+
+.graph-images
+{
+    padding: 2px;
+    margin: 27px auto 27px auto;
+    display: inline-grid;
+    height: max-content;
+}
+.box
+{
+    margin: 1rem;
+}
+#upload-image
+{
+    height: 250px;
+}
+#kaustav
+{
+    height: 300px;
+}

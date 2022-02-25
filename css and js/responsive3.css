@@ -1,0 +1,49 @@
+/* Navigation*/
+
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+#navlist
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+#navlist li a
+{
+    margin: 4px 0 4px 0;
+}
+.burger
+{
+    display: block;
+    margin-right: 10px;
+}
+.h-nav-resp
+{
+    height: 70px;
+}
+.v-class-resp
+{
+    opacity: 0;
+}
+
+/*Navigation*/
+
+/*Profile*/
+
+#text h1
+{
+    font-size: 2rem;
+    padding: 12px;
+}
+#para1
+{
+    font-size: 1.3rem;
+    padding: 4px;
+}

@@ -1,0 +1,50 @@
+#text h1
+{
+    font-size: 1.6rem;
+    padding: 12px;
+}
+#para1
+{
+    font-size: 1.1rem;
+    padding: 4px;
+}
+#prog-img
+{
+    width: 100%-500px;
+}
+#skill-heading
+{
+    font-size: 2rem;
+}
+.prog .container
+{
+    width: 116%;
+    height: 26px;
+    margin: -0.3rem;
+}
+#work
+{
+    height: 1600px;
+}
+#work #learn-card
+{
+    height: 1000px;
+    width: 70%;
+}
+.card1::before
+{
+    height: 300px;
+    width: 200px;
+}
+.card1 img
+{
+    height: 300px;
+    width: 200px;
+}
+#work #learn-card .card1
+{
+    width: inherit;
+    height: 300px;
+    width: 200px;
+    padding: 2rem auto 2rem auto;
+}

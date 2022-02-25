@@ -1,0 +1,140 @@
+/*Navigation*/
+.navbar
+{
+    position: relative;
+    max-width: 100%;
+}
+.navbar ul
+{
+    max-width: 80%;
+    padding: 3px;
+}
+.navbar ul li
+{
+    width: 100%;
+    margin: auto
+}
+.navbar ul li a
+{
+    padding: auto;
+    margin: auto
+}
+/*profile*/
+#profile
+{
+    height: max-content;
+    padding-bottom: 3rem;
+}
+#logo
+{
+    display: flex;
+    margin: 15px 20px;
+}
+#logo img
+{
+    position: relative;
+    height: 200px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+#text
+{
+    height: 400px;
+}
+#text h1
+{
+    height: 160px;
+    font-size: 2.6rem;
+}
+#para1
+{
+    height: fit-content;
+}
+/*skill*/
+.heading1
+{
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+#prog-skill
+{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+}
+#prog-skill .prog
+{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 80%;
+}
+.prog .container
+{
+    width: 100%;
+    height: 26px;
+    margin: -0.3rem;
+}
+
+.skills 
+{
+    text-align: right; 
+    padding-top: 4px; 
+    padding-bottom: 15px; 
+    color: black; 
+    border-radius: 25px;
+}
+
+.html {width: 90%;height: 26px; background-color: rgb(51, 122, 204);}
+.css {width: 75%;height: 26px; background-color: rgb(51, 122, 204);} 
+.js {width: 35%;height: 26px; background-color: rgb(51, 122, 204);} 
+.C {width: 80%;height: 26px; background-color: rgb(51, 122, 204);} 
+.Cpp{width: 76%;height: 26px; background-color: rgb(51, 122, 204);}
+.Java{width: 82%;height: 26px; background-color: rgb(51, 122, 204);}
+.Python{width: 60%;height: 26px; background-color: rgb(51, 122, 204);}
+
+#prog-img
+{
+    height: 250px;
+    width: 350px;
+    background-color: #ddd;
+    border-radius: 220px;
+}
+
+#skill-heading 
+{
+    font-size: 3.2rem;
+    color: #ddd;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding-top: 90px;
+}
+/*Work*/
+#work
+{
+    height: 1200px;
+}
+#work #learn-card
+{
+    flex-direction: column;
+    height: 800px;
+    width: 70%;
+}
+.card1::before
+{
+    height: 200px;
+}
+.card1 img
+{
+    height: 200px;
+}
+#work #learn-card .card1
+{
+    width: inherit;
+    height: 200px;
+}
+#work header
+{
+    margin-top: 2px;
+}
+
